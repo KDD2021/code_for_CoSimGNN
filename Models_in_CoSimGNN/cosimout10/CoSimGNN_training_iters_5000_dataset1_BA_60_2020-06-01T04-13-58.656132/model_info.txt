@@ -1,0 +1,258 @@
+align_metric               : mcs
+batch_size                 : 128
+dataset                    : aids700nef
+dataset_dzh                : dataset1_BA_60
+dataset_version            : None
+debug                      : False
+device                     : cpu
+dos_pred                   : sim
+dos_true                   : dist
+draw_sub_graph             : False
+ds_kernel                  : exp
+ds_norm                    : True
+edge_feats                 : None
+filter_large_size          : None
+hard_mask                  : True
+hostname                   : 10a106e359df
+layer_1                    : NodeEmbedding:type=gin,output_dim=64,act=relu,bn=True
+layer_2                    : NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True
+layer_3                    : NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True
+layer_4                    : Memory_Based_Pooling:heads=5,input_dim=64,output_num=10,output_dim=64,CosimGNN=True
+layer_5                    : GMNPropagator:input_dim=64,output_dim=64,distance_metric=cosine,more_nn=None
+layer_6                    : GMNPropagator:input_dim=64,output_dim=64,distance_metric=cosine,more_nn=None
+layer_7                    : GMNPropagator:input_dim=64,output_dim=64,distance_metric=cosine,more_nn=None
+layer_8                    : GMNAggregator:input_dim=64,output_dim=64
+layer_9                    : GMNLoss:ds_metric=cosine
+layer_num                  : 9
+load_model                 : None
+lr                         : 0.001
+model                      : CoSimGNN
+model_name                 : fancy
+n_outputs                  : 10
+no_probability             : False
+node_fe_1                  : one_hot
+node_feats                 : type
+node_ordering              : bfs
+num_epochs                 : None
+num_iters                  : 5000
+num_node_feat              : 30
+num_partitions             : 3
+num_select                 : 3
+only_iters_for_debug       : None
+positional_encoding        : False
+print_every_iters          : 10
+rank                       : True
+save_every_epochs          : 1
+save_model                 : True
+save_sub_graph             : False
+select_node_pair           : None
+sub_graph_path             : ../../sub_graph/
+theta                      : 0.5
+throw_away                 : 0
+traditional_method         : True
+train_test_ratio           : 0.8
+tvt_options                : all
+tvt_strategy               : holdout
+user                       : root
+validation                 : False
+ts                         : 2020-06-01T04-13-58.656132
+
+python /graph/part531/GraphMatching_submission/model/OurGED/main.py --align_metric=mcs  --batch_size=128  --dataset=aids700nef  --dataset_dzh=dataset1_BA_60  --dataset_version=None  --debug=False  --device=cpu  --dos_pred=sim  --dos_true=dist  --draw_sub_graph=False  --ds_kernel=exp  --ds_norm=True  --edge_feats=None  --filter_large_size=None  --hard_mask=True  --hostname=10a106e359df  --layer_1=NodeEmbedding:type=gin,output_dim=64,act=relu,bn=True  --layer_2=NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True  --layer_3=NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True  --layer_4=Memory_Based_Pooling:heads=5,input_dim=64,output_num=10,output_dim=64,CosimGNN=True  --layer_5=GMNPropagator:input_dim=64,output_dim=64,distance_metric=cosine,more_nn=None  --layer_6=GMNPropagator:input_dim=64,output_dim=64,distance_metric=cosine,more_nn=None  --layer_7=GMNPropagator:input_dim=64,output_dim=64,distance_metric=cosine,more_nn=None  --layer_8=GMNAggregator:input_dim=64,output_dim=64  --layer_9=GMNLoss:ds_metric=cosine  --layer_num=9  --load_model=None  --lr=0.001  --model=CoSimGNN  --model_name=fancy  --n_outputs=10  --no_probability=False  --node_fe_1=one_hot  --node_feats=type  --node_ordering=bfs  --num_epochs=None  --num_iters=5000  --num_node_feat=30  --num_partitions=3  --num_select=3  --only_iters_for_debug=None  --positional_encoding=False  --print_every_iters=10  --rank=True  --save_every_epochs=1  --save_model=True  --save_sub_graph=False  --select_node_pair=None  --sub_graph_path=../../sub_graph/  --theta=0.5  --throw_away=0  --traditional_method=True  --train_test_ratio=0.8  --tvt_options=all  --tvt_strategy=holdout  --user=root  --validation=False
+
+Model(
+  (layers): ModuleList(
+    (0): NodeEmbedding(
+      (conv): GINConv(nn=Sequential(
+        (0): Linear(in_features=30, out_features=64, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=64, out_features=64, bias=True)
+      ))
+      (act): ReLU()
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (1): NodeEmbedding(
+      (conv): GINConv(nn=Sequential(
+        (0): Linear(in_features=64, out_features=64, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=64, out_features=64, bias=True)
+      ))
+      (act): ReLU()
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (2): NodeEmbedding(
+      (conv): GINConv(nn=Sequential(
+        (0): Linear(in_features=64, out_features=64, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=64, out_features=64, bias=True)
+      ))
+      (act): ReLU()
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (3): Memory_Pooling_Layer(
+      (dropout_1): Dropout(p=0.5)
+      (input2centroids_2): Sequential(
+        (0): Linear(in_features=6, out_features=25, bias=True)
+        (1): ReLU()
+      )
+      (input2centroids_3): Sequential(
+        (0): Linear(in_features=25, out_features=50, bias=True)
+        (1): ReLU()
+      )
+      (input2centroids_4): Sequential(
+        (0): Linear(in_features=50, out_features=50, bias=True)
+        (1): ReLU()
+      )
+      (input2centroids_5): Sequential(
+        (0): Linear(in_features=50, out_features=50, bias=True)
+        (1): ReLU()
+      )
+      (memory_aggregation): Conv2d(5, 1, kernel_size=[1, 1], stride=(1, 1))
+      (bn_1): BatchNorm2d(1, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (dim_feat_transformation): Linear(in_features=64, out_features=64, bias=True)
+      (lrelu): LeakyReLU(negative_slope=0.01)
+      (similarity_compute): CosineSimilarity()
+      (similarity_compute_1): CosineSimilarity()
+      (relu): ReLU()
+    )
+    (4): GMNPropagator(
+      (distance_metric): CosineSimilarity()
+      (softmax): Softmax()
+      (f_messasge): MLP(
+        (activation): ReLU()
+        (layers): ModuleList(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Linear(in_features=128, out_features=128, bias=True)
+        )
+      )
+      (f_node): MLP(
+        (activation): ReLU()
+        (layers): ModuleList(
+          (0): Linear(in_features=256, out_features=256, bias=True)
+          (1): Linear(in_features=256, out_features=64, bias=True)
+        )
+      )
+      (GAT_1): GATConv(64, 64, heads=1)
+      (relu): ReLU()
+      (bn_1): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (GAT_2): GATConv(64, 64, heads=1)
+      (bn_2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (dense_GCN): DenseSAGEConv(64, 64)
+    )
+    (5): GMNPropagator(
+      (distance_metric): CosineSimilarity()
+      (softmax): Softmax()
+      (f_messasge): MLP(
+        (activation): ReLU()
+        (layers): ModuleList(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Linear(in_features=128, out_features=128, bias=True)
+        )
+      )
+      (f_node): MLP(
+        (activation): ReLU()
+        (layers): ModuleList(
+          (0): Linear(in_features=256, out_features=256, bias=True)
+          (1): Linear(in_features=256, out_features=64, bias=True)
+        )
+      )
+      (GAT_1): GATConv(64, 64, heads=1)
+      (relu): ReLU()
+      (bn_1): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (GAT_2): GATConv(64, 64, heads=1)
+      (bn_2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (dense_GCN): DenseSAGEConv(64, 64)
+    )
+    (6): GMNPropagator(
+      (distance_metric): CosineSimilarity()
+      (softmax): Softmax()
+      (f_messasge): MLP(
+        (activation): ReLU()
+        (layers): ModuleList(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Linear(in_features=128, out_features=128, bias=True)
+        )
+      )
+      (f_node): MLP(
+        (activation): ReLU()
+        (layers): ModuleList(
+          (0): Linear(in_features=256, out_features=256, bias=True)
+          (1): Linear(in_features=256, out_features=64, bias=True)
+        )
+      )
+      (GAT_1): GATConv(64, 64, heads=1)
+      (relu): ReLU()
+      (bn_1): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (GAT_2): GATConv(64, 64, heads=1)
+      (bn_2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (dense_GCN): DenseSAGEConv(64, 64)
+    )
+    (7): GMNAggregator(
+      (sigmoid): Sigmoid()
+      (weight_func): MLP(
+        (activation): ReLU()
+        (layers): ModuleList(
+          (0): Linear(in_features=64, out_features=64, bias=True)
+          (1): Linear(in_features=64, out_features=64, bias=True)
+        )
+      )
+      (gate_func): MLP(
+        (activation): ReLU()
+        (layers): ModuleList(
+          (0): Linear(in_features=64, out_features=64, bias=True)
+          (1): Linear(in_features=64, out_features=64, bias=True)
+        )
+      )
+      (mlp_graph): MLP(
+        (activation): ReLU()
+        (layers): ModuleList(
+          (0): Linear(in_features=64, out_features=64, bias=True)
+          (1): Linear(in_features=64, out_features=64, bias=True)
+        )
+      )
+    )
+    (8): GMNLoss(
+      (ds_metric): CosineSimilarity()
+      (loss): MSELoss()
+    )
+  )
+  (criterion): MSELoss()
+  (GNN_1): NodeEmbedding(
+    (conv): GINConv(nn=Sequential(
+      (0): Linear(in_features=30, out_features=64, bias=True)
+      (1): PReLU(num_parameters=64)
+      (2): Linear(in_features=64, out_features=64, bias=True)
+    ))
+    (act): PReLU(num_parameters=64)
+    (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (GNN_2): NodeEmbedding(
+    (conv): GINConv(nn=Sequential(
+      (0): Linear(in_features=64, out_features=32, bias=True)
+      (1): PReLU(num_parameters=32)
+      (2): Linear(in_features=32, out_features=32, bias=True)
+    ))
+    (act): PReLU(num_parameters=32)
+    (bn): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (GNN_3): NodeEmbedding(
+    (conv): GINConv(nn=Sequential(
+      (0): Linear(in_features=32, out_features=16, bias=True)
+      (1): PReLU(num_parameters=16)
+      (2): Linear(in_features=16, out_features=16, bias=True)
+    ))
+    (act): PReLU(num_parameters=16)
+    (bn): BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (ntn_layer): NTN(
+    (inneract): ReLU()
+  )
+  (graph_mlp_layers): ModuleList(
+    (0): Linear(in_features=16, out_features=8, bias=False)
+    (1): Sigmoid()
+    (2): Linear(in_features=8, out_features=4, bias=False)
+    (3): Sigmoid()
+    (4): Linear(in_features=4, out_features=2, bias=False)
+    (5): Sigmoid()
+    (6): Linear(in_features=2, out_features=1, bias=False)
+  )
+)

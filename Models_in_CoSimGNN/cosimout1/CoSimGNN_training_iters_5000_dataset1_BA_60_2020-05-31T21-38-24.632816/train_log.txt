@@ -1,0 +1,618 @@
+	Iter: 001 (1), Loss: 0.5239131		1.00 sec, 358.29 msecs
+	Iter: 010 (10), Loss: 0.0161564		11.00 secs, 450.71 msecs
+	Iter: 020 (20), Loss: 0.0057561		12.00 secs, 636.80 msecs
+	Iter: 030 (30), Loss: 0.0033380		12.00 secs, 830.31 msecs
+	Iter: 040 (40), Loss: 0.0037486		12.00 secs, 568.07 msecs
+	Iter: 050 (50), Loss: 0.0031579		12.00 secs, 779.57 msecs
+	Iter: 060 (60), Loss: 0.0054869		12.00 secs, 663.30 msecs
+	Iter: 070 (70), Loss: 0.0053750		12.00 secs, 650.08 msecs
+	Iter: 080 (80), Loss: 0.0028796		12.00 secs, 470.64 msecs
+	Iter: 090 (90), Loss: 0.0018200		12.00 secs, 588.56 msecs
+	Iter: 100 (100), Loss: 0.0019673		12.00 secs, 599.13 msecs
+	Iter: 110 (110), Loss: 0.0037387		12.00 secs, 744.43 msecs
+	Iter: 120 (120), Loss: 0.0060174		12.00 secs, 499.51 msecs
+	Iter: 130 (130), Loss: 0.0028744		12.00 secs, 580.77 msecs
+	Iter: 140 (140), Loss: 0.0026333		12.00 secs, 630.45 msecs
+	Iter: 150 (150), Loss: 0.0033781		12.00 secs, 501.95 msecs
+	Iter: 160 (160), Loss: 0.0053831		12.00 secs, 501.66 msecs
+	Iter: 170 (170), Loss: 0.0027145		12.00 secs, 414.34 msecs
+	Iter: 180 (180), Loss: 0.0031271		12.00 secs, 748.43 msecs
+	Iter: 190 (190), Loss: 0.0033591		12.00 secs, 626.42 msecs
+	Iter: 200 (200), Loss: 0.0026560		12.00 secs, 902.73 msecs
+	Iter: 210 (210), Loss: 0.0021324		12.00 secs, 670.07 msecs
+	Iter: 220 (220), Loss: 0.0032061		12.00 secs, 858.88 msecs
+	Iter: 230 (230), Loss: 0.0029913		12.00 secs, 551.71 msecs
+	Iter: 240 (240), Loss: 0.0031446		12.00 secs, 555.54 msecs
+	Iter: 250 (250), Loss: 0.0022632		12.00 secs, 544.42 msecs
+	Iter: 260 (260), Loss: 0.0013954		12.00 secs, 591.15 msecs
+	Iter: 270 (270), Loss: 0.0011993		12.00 secs, 549.35 msecs
+	Iter: 280 (280), Loss: 0.0010202		12.00 secs, 721.70 msecs
+	Iter: 290 (290), Loss: 0.0037079		12.00 secs, 650.22 msecs
+	Iter: 300 (300), Loss: 0.0008993		12.00 secs, 522.37 msecs
+	Iter: 310 (310), Loss: 0.0015579		12.00 secs, 709.98 msecs
+	Iter: 320 (320), Loss: 0.0019113		12.00 secs, 565.41 msecs
+	Iter: 330 (330), Loss: 0.0052144		12.00 secs, 568.86 msecs
+	Iter: 340 (340), Loss: 0.0014473		12.00 secs, 619.53 msecs
+	Iter: 350 (350), Loss: 0.0023300		12.00 secs, 689.75 msecs
+	Iter: 360 (360), Loss: 0.0020652		12.00 secs, 618.62 msecs
+	Iter: 370 (370), Loss: 0.0026518		12.00 secs, 800.81 msecs
+	Iter: 380 (380), Loss: 0.0025345		12.00 secs, 817.63 msecs
+	Iter: 390 (390), Loss: 0.0036022		12.00 secs, 753.72 msecs
+	Iter: 400 (400), Loss: 0.0029629		12.00 secs, 739.65 msecs
+	Iter: 410 (410), Loss: 0.0018587		12.00 secs, 387.58 msecs
+Epoch: 001, Loss: 0.0056236 (410 iters)		8.00 mins, 38.00 secs, 233.19 msecs
+	Iter: 001 (411), Loss: 0.0025748		1.00 sec, 269.18 msecs
+	Iter: 010 (420), Loss: 0.0019910		11.00 secs, 516.53 msecs
+	Iter: 020 (430), Loss: 0.0007676		12.00 secs, 785.41 msecs
+	Iter: 030 (440), Loss: 0.0011280		12.00 secs, 886.48 msecs
+	Iter: 040 (450), Loss: 0.0013303		12.00 secs, 815.17 msecs
+	Iter: 050 (460), Loss: 0.0022090		12.00 secs, 620.78 msecs
+	Iter: 060 (470), Loss: 0.0034165		12.00 secs, 806.56 msecs
+	Iter: 070 (480), Loss: 0.0017819		13.00 secs, 867.29 msecs
+	Iter: 080 (490), Loss: 0.0028254		13.00 secs, 300.99 msecs
+	Iter: 090 (500), Loss: 0.0026784		12.00 secs, 835.20 msecs
+	Iter: 100 (510), Loss: 0.0010914		12.00 secs, 924.04 msecs
+	Iter: 110 (520), Loss: 0.0012608		12.00 secs, 721.85 msecs
+	Iter: 120 (530), Loss: 0.0051323		12.00 secs, 824.96 msecs
+	Iter: 130 (540), Loss: 0.0037497		12.00 secs, 814.42 msecs
+	Iter: 140 (550), Loss: 0.0024612		12.00 secs, 774.51 msecs
+	Iter: 150 (560), Loss: 0.0030406		12.00 secs, 553.54 msecs
+	Iter: 160 (570), Loss: 0.0033154		12.00 secs, 518.28 msecs
+	Iter: 170 (580), Loss: 0.0036024		12.00 secs, 663.17 msecs
+	Iter: 180 (590), Loss: 0.0014850		13.00 secs, 7.39 msecs
+	Iter: 190 (600), Loss: 0.0009992		12.00 secs, 762.69 msecs
+	Iter: 200 (610), Loss: 0.0024247		12.00 secs, 774.98 msecs
+	Iter: 210 (620), Loss: 0.0021541		12.00 secs, 831.44 msecs
+	Iter: 220 (630), Loss: 0.0025243		12.00 secs, 699.32 msecs
+	Iter: 230 (640), Loss: 0.0016637		12.00 secs, 915.41 msecs
+	Iter: 240 (650), Loss: 0.0014269		12.00 secs, 715.50 msecs
+	Iter: 250 (660), Loss: 0.0011189		12.00 secs, 858.54 msecs
+	Iter: 260 (670), Loss: 0.0023224		12.00 secs, 735.56 msecs
+	Iter: 270 (680), Loss: 0.0018027		12.00 secs, 678.52 msecs
+	Iter: 280 (690), Loss: 0.0016646		12.00 secs, 879.02 msecs
+	Iter: 290 (700), Loss: 0.0027261		12.00 secs, 741.60 msecs
+	Iter: 300 (710), Loss: 0.0071925		12.00 secs, 771.32 msecs
+	Iter: 310 (720), Loss: 0.0018111		12.00 secs, 778.09 msecs
+	Iter: 320 (730), Loss: 0.0023683		12.00 secs, 696.99 msecs
+	Iter: 330 (740), Loss: 0.0013493		12.00 secs, 971.76 msecs
+	Iter: 340 (750), Loss: 0.0024630		12.00 secs, 714.55 msecs
+	Iter: 350 (760), Loss: 0.0025920		12.00 secs, 946.17 msecs
+	Iter: 360 (770), Loss: 0.0019371		13.00 secs, 37.77 msecs
+	Iter: 370 (780), Loss: 0.0017287		13.00 secs, 46.17 msecs
+	Iter: 380 (790), Loss: 0.0022818		12.00 secs, 930.41 msecs
+	Iter: 390 (800), Loss: 0.0022528		12.00 secs, 864.69 msecs
+	Iter: 400 (810), Loss: 0.0016855		12.00 secs, 840.35 msecs
+	Iter: 410 (820), Loss: 0.0048963		12.00 secs, 447.20 msecs
+Epoch: 002, Loss: 0.0022816 (410 iters)		8.00 mins, 46.00 secs, 143.85 msecs
+	Iter: 001 (821), Loss: 0.0044716		1.00 sec, 261.80 msecs
+	Iter: 010 (830), Loss: 0.0017537		11.00 secs, 686.02 msecs
+	Iter: 020 (840), Loss: 0.0011973		13.00 secs, 205.45 msecs
+	Iter: 030 (850), Loss: 0.0020497		12.00 secs, 974.12 msecs
+	Iter: 040 (860), Loss: 0.0029464		12.00 secs, 884.02 msecs
+	Iter: 050 (870), Loss: 0.0007968		13.00 secs, 82.92 msecs
+	Iter: 060 (880), Loss: 0.0013577		12.00 secs, 817.47 msecs
+	Iter: 070 (890), Loss: 0.0012767		12.00 secs, 814.48 msecs
+	Iter: 080 (900), Loss: 0.0038723		12.00 secs, 817.21 msecs
+	Iter: 090 (910), Loss: 0.0022193		12.00 secs, 692.26 msecs
+	Iter: 100 (920), Loss: 0.0028336		12.00 secs, 926.61 msecs
+	Iter: 110 (930), Loss: 0.0023434		12.00 secs, 911.18 msecs
+	Iter: 120 (940), Loss: 0.0026065		12.00 secs, 812.79 msecs
+	Iter: 130 (950), Loss: 0.0017173		12.00 secs, 907.63 msecs
+	Iter: 140 (960), Loss: 0.0007193		12.00 secs, 758.87 msecs
+	Iter: 150 (970), Loss: 0.0015846		12.00 secs, 814.76 msecs
+	Iter: 160 (980), Loss: 0.0013866		12.00 secs, 617.49 msecs
+	Iter: 170 (990), Loss: 0.0055150		12.00 secs, 708.02 msecs
+	Iter: 180 (1000), Loss: 0.0018508		12.00 secs, 746.95 msecs
+	Iter: 190 (1010), Loss: 0.0025747		12.00 secs, 638.77 msecs
+	Iter: 200 (1020), Loss: 0.0020309		13.00 secs, 104.66 msecs
+	Iter: 210 (1030), Loss: 0.0023683		12.00 secs, 849.90 msecs
+	Iter: 220 (1040), Loss: 0.0009527		12.00 secs, 918.37 msecs
+	Iter: 230 (1050), Loss: 0.0025454		12.00 secs, 888.18 msecs
+	Iter: 240 (1060), Loss: 0.0017821		12.00 secs, 854.23 msecs
+	Iter: 250 (1070), Loss: 0.0007875		12.00 secs, 944.57 msecs
+	Iter: 260 (1080), Loss: 0.0027592		12.00 secs, 703.15 msecs
+	Iter: 270 (1090), Loss: 0.0036967		12.00 secs, 807.09 msecs
+	Iter: 280 (1100), Loss: 0.0025543		12.00 secs, 717.25 msecs
+	Iter: 290 (1110), Loss: 0.0011961		12.00 secs, 730.36 msecs
+	Iter: 300 (1120), Loss: 0.0038857		12.00 secs, 750.40 msecs
+	Iter: 310 (1130), Loss: 0.0006462		12.00 secs, 814.77 msecs
+	Iter: 320 (1140), Loss: 0.0025959		12.00 secs, 750.27 msecs
+	Iter: 330 (1150), Loss: 0.0010215		12.00 secs, 799.00 msecs
+	Iter: 340 (1160), Loss: 0.0017682		12.00 secs, 595.71 msecs
+	Iter: 350 (1170), Loss: 0.0024786		12.00 secs, 675.80 msecs
+	Iter: 360 (1180), Loss: 0.0011719		12.00 secs, 721.87 msecs
+	Iter: 370 (1190), Loss: 0.0020363		12.00 secs, 696.45 msecs
+	Iter: 380 (1200), Loss: 0.0052006		12.00 secs, 874.91 msecs
+	Iter: 390 (1210), Loss: 0.0017633		12.00 secs, 723.35 msecs
+	Iter: 400 (1220), Loss: 0.0013628		12.00 secs, 747.65 msecs
+	Iter: 410 (1230), Loss: 0.0026836		12.00 secs, 177.19 msecs
+Epoch: 003, Loss: 0.0021474 (410 iters)		8.00 mins, 44.00 secs, 924.00 msecs
+	Iter: 001 (1231), Loss: 0.0015903		1.00 sec, 238.45 msecs
+	Iter: 010 (1240), Loss: 0.0019063		11.00 secs, 265.17 msecs
+	Iter: 020 (1250), Loss: 0.0026842		12.00 secs, 758.63 msecs
+	Iter: 030 (1260), Loss: 0.0019163		12.00 secs, 649.68 msecs
+	Iter: 040 (1270), Loss: 0.0016154		12.00 secs, 640.96 msecs
+	Iter: 050 (1280), Loss: 0.0017728		12.00 secs, 725.47 msecs
+	Iter: 060 (1290), Loss: 0.0016827		12.00 secs, 948.44 msecs
+	Iter: 070 (1300), Loss: 0.0015205		12.00 secs, 808.98 msecs
+	Iter: 080 (1310), Loss: 0.0030845		12.00 secs, 757.52 msecs
+	Iter: 090 (1320), Loss: 0.0014836		12.00 secs, 913.55 msecs
+	Iter: 100 (1330), Loss: 0.0036351		12.00 secs, 681.28 msecs
+	Iter: 110 (1340), Loss: 0.0025433		12.00 secs, 786.70 msecs
+	Iter: 120 (1350), Loss: 0.0015379		12.00 secs, 918.82 msecs
+	Iter: 130 (1360), Loss: 0.0019944		13.00 secs, 100.34 msecs
+	Iter: 140 (1370), Loss: 0.0018064		12.00 secs, 774.57 msecs
+	Iter: 150 (1380), Loss: 0.0032939		12.00 secs, 893.67 msecs
+	Iter: 160 (1390), Loss: 0.0025618		12.00 secs, 693.14 msecs
+	Iter: 170 (1400), Loss: 0.0027900		12.00 secs, 931.75 msecs
+	Iter: 180 (1410), Loss: 0.0026028		12.00 secs, 789.49 msecs
+	Iter: 190 (1420), Loss: 0.0019112		12.00 secs, 915.33 msecs
+	Iter: 200 (1430), Loss: 0.0016418		12.00 secs, 765.55 msecs
+	Iter: 210 (1440), Loss: 0.0021558		12.00 secs, 789.26 msecs
+	Iter: 220 (1450), Loss: 0.0039879		12.00 secs, 751.77 msecs
+	Iter: 230 (1460), Loss: 0.0024106		12.00 secs, 885.88 msecs
+	Iter: 240 (1470), Loss: 0.0048843		12.00 secs, 864.12 msecs
+	Iter: 250 (1480), Loss: 0.0020705		12.00 secs, 879.68 msecs
+	Iter: 260 (1490), Loss: 0.0016347		12.00 secs, 909.24 msecs
+	Iter: 270 (1500), Loss: 0.0059239		12.00 secs, 933.42 msecs
+	Iter: 280 (1510), Loss: 0.0022518		12.00 secs, 935.19 msecs
+	Iter: 290 (1520), Loss: 0.0013273		12.00 secs, 800.70 msecs
+	Iter: 300 (1530), Loss: 0.0021103		12.00 secs, 630.90 msecs
+	Iter: 310 (1540), Loss: 0.0033093		12.00 secs, 766.20 msecs
+	Iter: 320 (1550), Loss: 0.0020383		12.00 secs, 934.66 msecs
+	Iter: 330 (1560), Loss: 0.0023741		12.00 secs, 817.76 msecs
+	Iter: 340 (1570), Loss: 0.0028065		12.00 secs, 630.93 msecs
+	Iter: 350 (1580), Loss: 0.0020406		13.00 secs, 43.16 msecs
+	Iter: 360 (1590), Loss: 0.0014909		12.00 secs, 609.16 msecs
+	Iter: 370 (1600), Loss: 0.0026234		12.00 secs, 981.95 msecs
+	Iter: 380 (1610), Loss: 0.0027786		12.00 secs, 926.40 msecs
+	Iter: 390 (1620), Loss: 0.0019411		12.00 secs, 900.34 msecs
+	Iter: 400 (1630), Loss: 0.0031641		13.00 secs, 128.02 msecs
+	Iter: 410 (1640), Loss: 0.0018461		12.00 secs, 419.53 msecs
+Epoch: 004, Loss: 0.0022968 (410 iters)		8.00 mins, 45.00 secs, 495.86 msecs
+	Iter: 001 (1641), Loss: 0.0024267		1.00 sec, 323.30 msecs
+	Iter: 010 (1650), Loss: 0.0011329		11.00 secs, 616.51 msecs
+	Iter: 020 (1660), Loss: 0.0014385		12.00 secs, 876.30 msecs
+	Iter: 030 (1670), Loss: 0.0019261		12.00 secs, 883.06 msecs
+	Iter: 040 (1680), Loss: 0.0020150		12.00 secs, 704.39 msecs
+	Iter: 050 (1690), Loss: 0.0021110		12.00 secs, 867.75 msecs
+	Iter: 060 (1700), Loss: 0.0016723		12.00 secs, 635.61 msecs
+	Iter: 070 (1710), Loss: 0.0015054		12.00 secs, 872.17 msecs
+	Iter: 080 (1720), Loss: 0.0018815		12.00 secs, 872.66 msecs
+	Iter: 090 (1730), Loss: 0.0022823		12.00 secs, 728.09 msecs
+	Iter: 100 (1740), Loss: 0.0059924		12.00 secs, 640.15 msecs
+	Iter: 110 (1750), Loss: 0.0015154		12.00 secs, 654.30 msecs
+	Iter: 120 (1760), Loss: 0.0015524		12.00 secs, 851.80 msecs
+	Iter: 130 (1770), Loss: 0.0022420		12.00 secs, 765.93 msecs
+	Iter: 140 (1780), Loss: 0.0015871		12.00 secs, 567.07 msecs
+	Iter: 150 (1790), Loss: 0.0043509		12.00 secs, 684.94 msecs
+	Iter: 160 (1800), Loss: 0.0009918		12.00 secs, 877.28 msecs
+	Iter: 170 (1810), Loss: 0.0026421		12.00 secs, 700.99 msecs
+	Iter: 180 (1820), Loss: 0.0031195		12.00 secs, 770.01 msecs
+	Iter: 190 (1830), Loss: 0.0025934		12.00 secs, 503.51 msecs
+	Iter: 200 (1840), Loss: 0.0018282		12.00 secs, 913.73 msecs
+	Iter: 210 (1850), Loss: 0.0043221		12.00 secs, 743.80 msecs
+	Iter: 220 (1860), Loss: 0.0023217		12.00 secs, 772.73 msecs
+	Iter: 230 (1870), Loss: 0.0022076		13.00 secs, 37.25 msecs
+	Iter: 240 (1880), Loss: 0.0015359		13.00 secs, 364.97 msecs
+	Iter: 250 (1890), Loss: 0.0022201		12.00 secs, 900.27 msecs
+	Iter: 260 (1900), Loss: 0.0024592		12.00 secs, 776.36 msecs
+	Iter: 270 (1910), Loss: 0.0033647		12.00 secs, 769.80 msecs
+	Iter: 280 (1920), Loss: 0.0042822		12.00 secs, 947.36 msecs
+	Iter: 290 (1930), Loss: 0.0021902		12.00 secs, 876.70 msecs
+	Iter: 300 (1940), Loss: 0.0021811		12.00 secs, 925.61 msecs
+	Iter: 310 (1950), Loss: 0.0009596		13.00 secs, 22.74 msecs
+	Iter: 320 (1960), Loss: 0.0011668		12.00 secs, 945.15 msecs
+	Iter: 330 (1970), Loss: 0.0024483		12.00 secs, 945.25 msecs
+	Iter: 340 (1980), Loss: 0.0020361		12.00 secs, 933.34 msecs
+	Iter: 350 (1990), Loss: 0.0018222		12.00 secs, 982.19 msecs
+	Iter: 360 (2000), Loss: 0.0022934		12.00 secs, 968.41 msecs
+	Iter: 370 (2010), Loss: 0.0017501		12.00 secs, 737.50 msecs
+	Iter: 380 (2020), Loss: 0.0022810		12.00 secs, 891.44 msecs
+	Iter: 390 (2030), Loss: 0.0026847		12.00 secs, 755.23 msecs
+	Iter: 400 (2040), Loss: 0.0012366		12.00 secs, 869.45 msecs
+	Iter: 410 (2050), Loss: 0.0016540		12.00 secs, 615.11 msecs
+Epoch: 005, Loss: 0.0020396 (410 iters)		8.00 mins, 46.00 secs, 90.45 msecs
+	Iter: 001 (2051), Loss: 0.0012530		1.00 sec, 304.95 msecs
+	Iter: 010 (2060), Loss: 0.0008098		11.00 secs, 698.79 msecs
+	Iter: 020 (2070), Loss: 0.0020495		12.00 secs, 726.05 msecs
+	Iter: 030 (2080), Loss: 0.0037012		12.00 secs, 834.56 msecs
+	Iter: 040 (2090), Loss: 0.0007621		13.00 secs, 6.50 msecs
+	Iter: 050 (2100), Loss: 0.0027927		12.00 secs, 955.78 msecs
+	Iter: 060 (2110), Loss: 0.0015151		12.00 secs, 925.46 msecs
+	Iter: 070 (2120), Loss: 0.0021671		12.00 secs, 960.39 msecs
+	Iter: 080 (2130), Loss: 0.0008364		13.00 secs, 88.48 msecs
+	Iter: 090 (2140), Loss: 0.0023519		12.00 secs, 953.16 msecs
+	Iter: 100 (2150), Loss: 0.0027308		12.00 secs, 835.83 msecs
+	Iter: 110 (2160), Loss: 0.0011931		13.00 secs, 37.54 msecs
+	Iter: 120 (2170), Loss: 0.0010824		12.00 secs, 896.03 msecs
+	Iter: 130 (2180), Loss: 0.0024465		12.00 secs, 853.17 msecs
+	Iter: 140 (2190), Loss: 0.0015487		12.00 secs, 806.95 msecs
+	Iter: 150 (2200), Loss: 0.0012388		12.00 secs, 581.83 msecs
+	Iter: 160 (2210), Loss: 0.0022265		12.00 secs, 804.72 msecs
+	Iter: 170 (2220), Loss: 0.0020928		12.00 secs, 633.20 msecs
+	Iter: 180 (2230), Loss: 0.0018054		13.00 secs, 17.88 msecs
+	Iter: 190 (2240), Loss: 0.0059683		12.00 secs, 821.93 msecs
+	Iter: 200 (2250), Loss: 0.0017553		12.00 secs, 697.16 msecs
+	Iter: 210 (2260), Loss: 0.0024407		12.00 secs, 821.27 msecs
+	Iter: 220 (2270), Loss: 0.0009672		12.00 secs, 626.42 msecs
+	Iter: 230 (2280), Loss: 0.0016029		12.00 secs, 948.29 msecs
+	Iter: 240 (2290), Loss: 0.0013591		12.00 secs, 945.95 msecs
+	Iter: 250 (2300), Loss: 0.0043301		12.00 secs, 848.15 msecs
+	Iter: 260 (2310), Loss: 0.0027579		12.00 secs, 715.26 msecs
+	Iter: 270 (2320), Loss: 0.0019853		12.00 secs, 698.71 msecs
+	Iter: 280 (2330), Loss: 0.0019193		12.00 secs, 883.21 msecs
+	Iter: 290 (2340), Loss: 0.0014005		12.00 secs, 718.41 msecs
+	Iter: 300 (2350), Loss: 0.0025842		12.00 secs, 612.87 msecs
+	Iter: 310 (2360), Loss: 0.0030664		12.00 secs, 852.97 msecs
+	Iter: 320 (2370), Loss: 0.0023291		12.00 secs, 659.92 msecs
+	Iter: 330 (2380), Loss: 0.0015812		12.00 secs, 815.71 msecs
+	Iter: 340 (2390), Loss: 0.0020144		12.00 secs, 795.92 msecs
+	Iter: 350 (2400), Loss: 0.0036879		12.00 secs, 885.34 msecs
+	Iter: 360 (2410), Loss: 0.0013193		12.00 secs, 851.60 msecs
+	Iter: 370 (2420), Loss: 0.0023128		12.00 secs, 764.71 msecs
+	Iter: 380 (2430), Loss: 0.0013996		12.00 secs, 955.25 msecs
+	Iter: 390 (2440), Loss: 0.0017792		12.00 secs, 897.55 msecs
+	Iter: 400 (2450), Loss: 0.0019151		12.00 secs, 711.87 msecs
+	Iter: 410 (2460), Loss: 0.0046777		12.00 secs, 504.36 msecs
+Epoch: 006, Loss: 0.0019372 (410 iters)		8.00 mins, 45.00 secs, 954.17 msecs
+	Iter: 001 (2461), Loss: 0.0019435		1.00 sec, 314.67 msecs
+	Iter: 010 (2470), Loss: 0.0008998		11.00 secs, 300.38 msecs
+	Iter: 020 (2480), Loss: 0.0017611		12.00 secs, 797.15 msecs
+	Iter: 030 (2490), Loss: 0.0008646		12.00 secs, 705.52 msecs
+	Iter: 040 (2500), Loss: 0.0024415		12.00 secs, 883.55 msecs
+	Iter: 050 (2510), Loss: 0.0009173		13.00 secs, 44.49 msecs
+	Iter: 060 (2520), Loss: 0.0016919		12.00 secs, 831.66 msecs
+	Iter: 070 (2530), Loss: 0.0016467		12.00 secs, 921.69 msecs
+	Iter: 080 (2540), Loss: 0.0019082		12.00 secs, 785.26 msecs
+	Iter: 090 (2550), Loss: 0.0020562		12.00 secs, 705.44 msecs
+	Iter: 100 (2560), Loss: 0.0014024		12.00 secs, 789.03 msecs
+	Iter: 110 (2570), Loss: 0.0032583		12.00 secs, 920.61 msecs
+	Iter: 120 (2580), Loss: 0.0018611		12.00 secs, 827.63 msecs
+	Iter: 130 (2590), Loss: 0.0025573		12.00 secs, 780.43 msecs
+	Iter: 140 (2600), Loss: 0.0035416		12.00 secs, 853.65 msecs
+	Iter: 150 (2610), Loss: 0.0030184		12.00 secs, 782.11 msecs
+	Iter: 160 (2620), Loss: 0.0039160		12.00 secs, 674.75 msecs
+	Iter: 170 (2630), Loss: 0.0024632		12.00 secs, 695.97 msecs
+	Iter: 180 (2640), Loss: 0.0023124		12.00 secs, 664.32 msecs
+	Iter: 190 (2650), Loss: 0.0019659		12.00 secs, 956.24 msecs
+	Iter: 200 (2660), Loss: 0.0014221		12.00 secs, 999.47 msecs
+	Iter: 210 (2670), Loss: 0.0044913		12.00 secs, 639.89 msecs
+	Iter: 220 (2680), Loss: 0.0015929		12.00 secs, 732.80 msecs
+	Iter: 230 (2690), Loss: 0.0007313		12.00 secs, 809.39 msecs
+	Iter: 240 (2700), Loss: 0.0025977		12.00 secs, 764.19 msecs
+	Iter: 250 (2710), Loss: 0.0041548		12.00 secs, 819.64 msecs
+	Iter: 260 (2720), Loss: 0.0016193		12.00 secs, 958.63 msecs
+	Iter: 270 (2730), Loss: 0.0046430		12.00 secs, 871.16 msecs
+	Iter: 280 (2740), Loss: 0.0023911		12.00 secs, 861.84 msecs
+	Iter: 290 (2750), Loss: 0.0015872		13.00 secs, 31.66 msecs
+	Iter: 300 (2760), Loss: 0.0015353		13.00 secs, 74.75 msecs
+	Iter: 310 (2770), Loss: 0.0026093		12.00 secs, 960.43 msecs
+	Iter: 320 (2780), Loss: 0.0027920		12.00 secs, 800.16 msecs
+	Iter: 330 (2790), Loss: 0.0021598		12.00 secs, 923.36 msecs
+	Iter: 340 (2800), Loss: 0.0022026		12.00 secs, 801.05 msecs
+	Iter: 350 (2810), Loss: 0.0024563		12.00 secs, 723.84 msecs
+	Iter: 360 (2820), Loss: 0.0012635		12.00 secs, 691.72 msecs
+	Iter: 370 (2830), Loss: 0.0024503		12.00 secs, 821.66 msecs
+	Iter: 380 (2840), Loss: 0.0012393		12.00 secs, 901.27 msecs
+	Iter: 390 (2850), Loss: 0.0012021		12.00 secs, 713.62 msecs
+	Iter: 400 (2860), Loss: 0.0048933		12.00 secs, 736.46 msecs
+	Iter: 410 (2870), Loss: 0.0016278		12.00 secs, 489.80 msecs
+Epoch: 007, Loss: 0.0021789 (410 iters)		8.00 mins, 45.00 secs, 361.37 msecs
+	Iter: 001 (2871), Loss: 0.0025392		1.00 sec, 248.22 msecs
+	Iter: 010 (2880), Loss: 0.0045715		11.00 secs, 510.52 msecs
+	Iter: 020 (2890), Loss: 0.0011171		12.00 secs, 758.46 msecs
+	Iter: 030 (2900), Loss: 0.0028766		12.00 secs, 763.33 msecs
+	Iter: 040 (2910), Loss: 0.0030518		12.00 secs, 816.48 msecs
+	Iter: 050 (2920), Loss: 0.0034554		12.00 secs, 789.77 msecs
+	Iter: 060 (2930), Loss: 0.0019281		12.00 secs, 831.12 msecs
+	Iter: 070 (2940), Loss: 0.0008957		12.00 secs, 783.66 msecs
+	Iter: 080 (2950), Loss: 0.0009019		12.00 secs, 702.54 msecs
+	Iter: 090 (2960), Loss: 0.0041273		12.00 secs, 684.65 msecs
+	Iter: 100 (2970), Loss: 0.0012504		12.00 secs, 832.36 msecs
+	Iter: 110 (2980), Loss: 0.0019841		12.00 secs, 689.43 msecs
+	Iter: 120 (2990), Loss: 0.0033206		12.00 secs, 795.55 msecs
+	Iter: 130 (3000), Loss: 0.0004040		12.00 secs, 854.25 msecs
+	Iter: 140 (3010), Loss: 0.0025327		12.00 secs, 751.67 msecs
+	Iter: 150 (3020), Loss: 0.0009713		12.00 secs, 695.55 msecs
+	Iter: 160 (3030), Loss: 0.0016451		12.00 secs, 770.63 msecs
+	Iter: 170 (3040), Loss: 0.0038082		12.00 secs, 579.33 msecs
+	Iter: 180 (3050), Loss: 0.0032484		12.00 secs, 610.47 msecs
+	Iter: 190 (3060), Loss: 0.0028589		12.00 secs, 740.99 msecs
+	Iter: 200 (3070), Loss: 0.0035673		12.00 secs, 797.97 msecs
+	Iter: 210 (3080), Loss: 0.0013190		12.00 secs, 776.96 msecs
+	Iter: 220 (3090), Loss: 0.0011399		12.00 secs, 941.99 msecs
+	Iter: 230 (3100), Loss: 0.0019925		12.00 secs, 976.28 msecs
+	Iter: 240 (3110), Loss: 0.0017485		12.00 secs, 840.76 msecs
+	Iter: 250 (3120), Loss: 0.0022734		12.00 secs, 905.73 msecs
+	Iter: 260 (3130), Loss: 0.0017981		12.00 secs, 878.81 msecs
+	Iter: 270 (3140), Loss: 0.0020307		12.00 secs, 838.71 msecs
+	Iter: 280 (3150), Loss: 0.0020119		12.00 secs, 819.58 msecs
+	Iter: 290 (3160), Loss: 0.0026132		12.00 secs, 981.89 msecs
+	Iter: 300 (3170), Loss: 0.0010003		12.00 secs, 732.03 msecs
+	Iter: 310 (3180), Loss: 0.0009287		12.00 secs, 992.92 msecs
+	Iter: 320 (3190), Loss: 0.0010828		12.00 secs, 727.86 msecs
+	Iter: 330 (3200), Loss: 0.0017057		13.00 secs, 43.49 msecs
+	Iter: 340 (3210), Loss: 0.0016217		12.00 secs, 655.55 msecs
+	Iter: 350 (3220), Loss: 0.0016627		12.00 secs, 801.29 msecs
+	Iter: 360 (3230), Loss: 0.0018504		12.00 secs, 823.35 msecs
+	Iter: 370 (3240), Loss: 0.0016498		12.00 secs, 793.00 msecs
+	Iter: 380 (3250), Loss: 0.0026848		12.00 secs, 805.65 msecs
+	Iter: 390 (3260), Loss: 0.0018860		12.00 secs, 857.50 msecs
+	Iter: 400 (3270), Loss: 0.0016256		12.00 secs, 965.51 msecs
+	Iter: 410 (3280), Loss: 0.0019011		12.00 secs, 509.45 msecs
+Epoch: 008, Loss: 0.0019613 (410 iters)		8.00 mins, 44.00 secs, 675.32 msecs
+	Iter: 001 (3281), Loss: 0.0019016		1.00 sec, 352.15 msecs
+	Iter: 010 (3290), Loss: 0.0011756		11.00 secs, 652.08 msecs
+	Iter: 020 (3300), Loss: 0.0016351		12.00 secs, 808.50 msecs
+	Iter: 030 (3310), Loss: 0.0014944		12.00 secs, 786.08 msecs
+	Iter: 040 (3320), Loss: 0.0032780		12.00 secs, 817.97 msecs
+	Iter: 050 (3330), Loss: 0.0012101		12.00 secs, 829.01 msecs
+	Iter: 060 (3340), Loss: 0.0012919		12.00 secs, 775.59 msecs
+	Iter: 070 (3350), Loss: 0.0009747		12.00 secs, 884.01 msecs
+	Iter: 080 (3360), Loss: 0.0011991		12.00 secs, 958.71 msecs
+	Iter: 090 (3370), Loss: 0.0023975		12.00 secs, 858.12 msecs
+	Iter: 100 (3380), Loss: 0.0027937		12.00 secs, 890.65 msecs
+	Iter: 110 (3390), Loss: 0.0015099		13.00 secs, 37.59 msecs
+	Iter: 120 (3400), Loss: 0.0009907		12.00 secs, 761.41 msecs
+	Iter: 130 (3410), Loss: 0.0014588		12.00 secs, 886.29 msecs
+	Iter: 140 (3420), Loss: 0.0018267		12.00 secs, 927.45 msecs
+	Iter: 150 (3430), Loss: 0.0022859		12.00 secs, 896.18 msecs
+	Iter: 160 (3440), Loss: 0.0013204		12.00 secs, 993.37 msecs
+	Iter: 170 (3450), Loss: 0.0015835		12.00 secs, 924.67 msecs
+	Iter: 180 (3460), Loss: 0.0020798		12.00 secs, 767.37 msecs
+	Iter: 190 (3470), Loss: 0.0009111		12.00 secs, 745.82 msecs
+	Iter: 200 (3480), Loss: 0.0016498		12.00 secs, 729.90 msecs
+	Iter: 210 (3490), Loss: 0.0017721		12.00 secs, 911.20 msecs
+	Iter: 220 (3500), Loss: 0.0013557		13.00 secs, 4.41 msecs
+	Iter: 230 (3510), Loss: 0.0019393		12.00 secs, 816.50 msecs
+	Iter: 240 (3520), Loss: 0.0007986		12.00 secs, 905.10 msecs
+	Iter: 250 (3530), Loss: 0.0024934		12.00 secs, 932.14 msecs
+	Iter: 260 (3540), Loss: 0.0022937		12.00 secs, 862.12 msecs
+	Iter: 270 (3550), Loss: 0.0031708		12.00 secs, 849.89 msecs
+	Iter: 280 (3560), Loss: 0.0014355		13.00 secs, 80.94 msecs
+	Iter: 290 (3570), Loss: 0.0005666		13.00 secs, 139.00 msecs
+	Iter: 300 (3580), Loss: 0.0011117		12.00 secs, 765.01 msecs
+	Iter: 310 (3590), Loss: 0.0005482		12.00 secs, 938.66 msecs
+	Iter: 320 (3600), Loss: 0.0024656		12.00 secs, 969.01 msecs
+	Iter: 330 (3610), Loss: 0.0012078		13.00 secs, 19.49 msecs
+	Iter: 340 (3620), Loss: 0.0026604		12.00 secs, 893.41 msecs
+	Iter: 350 (3630), Loss: 0.0015992		12.00 secs, 908.67 msecs
+	Iter: 360 (3640), Loss: 0.0015864		12.00 secs, 997.27 msecs
+	Iter: 370 (3650), Loss: 0.0010325		13.00 secs, 232.38 msecs
+	Iter: 380 (3660), Loss: 0.0014900		12.00 secs, 812.80 msecs
+	Iter: 390 (3670), Loss: 0.0010711		12.00 secs, 936.78 msecs
+	Iter: 400 (3680), Loss: 0.0015860		12.00 secs, 986.30 msecs
+	Iter: 410 (3690), Loss: 0.0008486		12.00 secs, 677.22 msecs
+Epoch: 009, Loss: 0.0019280 (410 iters)		8.00 mins, 48.00 secs, 921.25 msecs
+	Iter: 001 (3691), Loss: 0.0014142		1.00 sec, 345.88 msecs
+	Iter: 010 (3700), Loss: 0.0016692		11.00 secs, 629.54 msecs
+	Iter: 020 (3710), Loss: 0.0013568		12.00 secs, 913.43 msecs
+	Iter: 030 (3720), Loss: 0.0014237		12.00 secs, 881.52 msecs
+	Iter: 040 (3730), Loss: 0.0010449		12.00 secs, 982.13 msecs
+	Iter: 050 (3740), Loss: 0.0016421		12.00 secs, 753.02 msecs
+	Iter: 060 (3750), Loss: 0.0016890		12.00 secs, 870.16 msecs
+	Iter: 070 (3760), Loss: 0.0004346		12.00 secs, 883.89 msecs
+	Iter: 080 (3770), Loss: 0.0035348		13.00 secs, 256.84 msecs
+	Iter: 090 (3780), Loss: 0.0047207		13.00 secs, 114.60 msecs
+	Iter: 100 (3790), Loss: 0.0019295		13.00 secs, 115.14 msecs
+	Iter: 110 (3800), Loss: 0.0014323		13.00 secs
+	Iter: 120 (3810), Loss: 0.0016009		13.00 secs, 68.30 msecs
+	Iter: 130 (3820), Loss: 0.0020435		12.00 secs, 861.58 msecs
+	Iter: 140 (3830), Loss: 0.0007658		13.00 secs, 51.17 msecs
+	Iter: 150 (3840), Loss: 0.0017764		12.00 secs, 842.30 msecs
+	Iter: 160 (3850), Loss: 0.0012199		12.00 secs, 868.23 msecs
+	Iter: 170 (3860), Loss: 0.0013339		12.00 secs, 976.20 msecs
+	Iter: 180 (3870), Loss: 0.0009319		12.00 secs, 779.42 msecs
+	Iter: 190 (3880), Loss: 0.0018759		12.00 secs, 900.62 msecs
+	Iter: 200 (3890), Loss: 0.0009076		12.00 secs, 814.37 msecs
+	Iter: 210 (3900), Loss: 0.0019280		12.00 secs, 987.26 msecs
+	Iter: 220 (3910), Loss: 0.0018459		12.00 secs, 898.61 msecs
+	Iter: 230 (3920), Loss: 0.0014405		12.00 secs, 930.10 msecs
+	Iter: 240 (3930), Loss: 0.0010781		13.00 secs, 290.82 msecs
+	Iter: 250 (3940), Loss: 0.0015045		12.00 secs, 828.02 msecs
+	Iter: 260 (3950), Loss: 0.0026691		13.00 secs, 29.49 msecs
+	Iter: 270 (3960), Loss: 0.0031726		13.00 secs, 5.68 msecs
+	Iter: 280 (3970), Loss: 0.0030755		12.00 secs, 970.73 msecs
+	Iter: 290 (3980), Loss: 0.0012570		12.00 secs, 796.35 msecs
+	Iter: 300 (3990), Loss: 0.0063200		12.00 secs, 733.05 msecs
+	Iter: 310 (4000), Loss: 0.0028769		12.00 secs, 829.21 msecs
+	Iter: 320 (4010), Loss: 0.0005457		12.00 secs, 934.71 msecs
+	Iter: 330 (4020), Loss: 0.0018976		13.00 secs, 51.52 msecs
+	Iter: 340 (4030), Loss: 0.0021554		12.00 secs, 762.31 msecs
+	Iter: 350 (4040), Loss: 0.0017414		12.00 secs, 836.11 msecs
+	Iter: 360 (4050), Loss: 0.0020140		12.00 secs, 852.90 msecs
+	Iter: 370 (4060), Loss: 0.0014151		12.00 secs, 880.87 msecs
+	Iter: 380 (4070), Loss: 0.0017915		12.00 secs, 947.79 msecs
+	Iter: 390 (4080), Loss: 0.0009432		12.00 secs, 915.77 msecs
+	Iter: 400 (4090), Loss: 0.0007220		12.00 secs, 965.06 msecs
+	Iter: 410 (4100), Loss: 0.0021370		12.00 secs, 439.91 msecs
+Epoch: 010, Loss: 0.0020976 (410 iters)		8.00 mins, 49.00 secs, 795.59 msecs
+	Iter: 001 (4101), Loss: 0.0014778		1.00 sec, 281.73 msecs
+	Iter: 010 (4110), Loss: 0.0024869		11.00 secs, 836.37 msecs
+	Iter: 020 (4120), Loss: 0.0016399		12.00 secs, 595.78 msecs
+	Iter: 030 (4130), Loss: 0.0023832		12.00 secs, 590.05 msecs
+	Iter: 040 (4140), Loss: 0.0028574		12.00 secs, 983.49 msecs
+	Iter: 050 (4150), Loss: 0.0020906		12.00 secs, 978.02 msecs
+	Iter: 060 (4160), Loss: 0.0017958		12.00 secs, 741.62 msecs
+	Iter: 070 (4170), Loss: 0.0016964		12.00 secs, 907.14 msecs
+	Iter: 080 (4180), Loss: 0.0010977		12.00 secs, 709.85 msecs
+	Iter: 090 (4190), Loss: 0.0009038		12.00 secs, 729.84 msecs
+	Iter: 100 (4200), Loss: 0.0013619		12.00 secs, 687.89 msecs
+	Iter: 110 (4210), Loss: 0.0014801		12.00 secs, 698.88 msecs
+	Iter: 120 (4220), Loss: 0.0019482		12.00 secs, 917.00 msecs
+	Iter: 130 (4230), Loss: 0.0023926		12.00 secs, 887.90 msecs
+	Iter: 140 (4240), Loss: 0.0030618		12.00 secs, 878.13 msecs
+	Iter: 150 (4250), Loss: 0.0010729		12.00 secs, 611.11 msecs
+	Iter: 160 (4260), Loss: 0.0068903		12.00 secs, 814.49 msecs
+	Iter: 170 (4270), Loss: 0.0012035		12.00 secs, 952.75 msecs
+	Iter: 180 (4280), Loss: 0.0015762		12.00 secs, 840.71 msecs
+	Iter: 190 (4290), Loss: 0.0018175		12.00 secs, 645.13 msecs
+	Iter: 200 (4300), Loss: 0.0041674		12.00 secs, 991.73 msecs
+	Iter: 210 (4310), Loss: 0.0022789		12.00 secs, 809.04 msecs
+	Iter: 220 (4320), Loss: 0.0016831		12.00 secs, 765.99 msecs
+	Iter: 230 (4330), Loss: 0.0034547		13.00 secs, 26.59 msecs
+	Iter: 240 (4340), Loss: 0.0022374		12.00 secs, 858.16 msecs
+	Iter: 250 (4350), Loss: 0.0013948		12.00 secs, 759.88 msecs
+	Iter: 260 (4360), Loss: 0.0032922		12.00 secs, 735.34 msecs
+	Iter: 270 (4370), Loss: 0.0022927		12.00 secs, 828.24 msecs
+	Iter: 280 (4380), Loss: 0.0018023		12.00 secs, 798.04 msecs
+	Iter: 290 (4390), Loss: 0.0024929		12.00 secs, 783.91 msecs
+	Iter: 300 (4400), Loss: 0.0026954		12.00 secs, 983.96 msecs
+	Iter: 310 (4410), Loss: 0.0012663		12.00 secs, 735.64 msecs
+	Iter: 320 (4420), Loss: 0.0012759		12.00 secs, 739.94 msecs
+	Iter: 330 (4430), Loss: 0.0008634		12.00 secs, 734.48 msecs
+	Iter: 340 (4440), Loss: 0.0035386		12.00 secs, 827.40 msecs
+	Iter: 350 (4450), Loss: 0.0025894		12.00 secs, 752.79 msecs
+	Iter: 360 (4460), Loss: 0.0009011		12.00 secs, 886.41 msecs
+	Iter: 370 (4470), Loss: 0.0022945		12.00 secs, 869.56 msecs
+	Iter: 380 (4480), Loss: 0.0018370		12.00 secs, 913.23 msecs
+	Iter: 390 (4490), Loss: 0.0015889		12.00 secs, 922.96 msecs
+	Iter: 400 (4500), Loss: 0.0026553		12.00 secs, 807.36 msecs
+	Iter: 410 (4510), Loss: 0.0017047		12.00 secs, 403.17 msecs
+Epoch: 011, Loss: 0.0020781 (410 iters)		8.00 mins, 45.00 secs, 221.87 msecs
+	Iter: 001 (4511), Loss: 0.0052224		1.00 sec, 252.21 msecs
+	Iter: 010 (4520), Loss: 0.0010099		11.00 secs, 490.58 msecs
+	Iter: 020 (4530), Loss: 0.0025095		12.00 secs, 729.94 msecs
+	Iter: 030 (4540), Loss: 0.0015233		12.00 secs, 939.27 msecs
+	Iter: 040 (4550), Loss: 0.0029748		12.00 secs, 624.24 msecs
+	Iter: 050 (4560), Loss: 0.0017242		13.00 secs, 24.31 msecs
+	Iter: 060 (4570), Loss: 0.0009318		12.00 secs, 958.25 msecs
+	Iter: 070 (4580), Loss: 0.0026203		12.00 secs, 607.67 msecs
+	Iter: 080 (4590), Loss: 0.0032647		12.00 secs, 903.82 msecs
+	Iter: 090 (4600), Loss: 0.0019068		12.00 secs, 785.33 msecs
+	Iter: 100 (4610), Loss: 0.0024072		12.00 secs, 696.60 msecs
+	Iter: 110 (4620), Loss: 0.0008378		13.00 secs, 184.62 msecs
+	Iter: 120 (4630), Loss: 0.0028943		12.00 secs, 988.67 msecs
+	Iter: 130 (4640), Loss: 0.0024218		12.00 secs, 747.48 msecs
+	Iter: 140 (4650), Loss: 0.0032966		12.00 secs, 807.20 msecs
+	Iter: 150 (4660), Loss: 0.0013112		12.00 secs, 925.56 msecs
+	Iter: 160 (4670), Loss: 0.0023547		12.00 secs, 891.99 msecs
+	Iter: 170 (4680), Loss: 0.0021195		12.00 secs, 822.89 msecs
+	Iter: 180 (4690), Loss: 0.0020831		12.00 secs, 933.90 msecs
+	Iter: 190 (4700), Loss: 0.0013468		12.00 secs, 855.95 msecs
+	Iter: 200 (4710), Loss: 0.0023031		12.00 secs, 787.33 msecs
+	Iter: 210 (4720), Loss: 0.0010826		12.00 secs, 657.31 msecs
+	Iter: 220 (4730), Loss: 0.0018112		12.00 secs, 825.22 msecs
+	Iter: 230 (4740), Loss: 0.0022184		12.00 secs, 979.36 msecs
+	Iter: 240 (4750), Loss: 0.0034446		13.00 secs, 43.70 msecs
+	Iter: 250 (4760), Loss: 0.0019027		13.00 secs, 97.76 msecs
+	Iter: 260 (4770), Loss: 0.0005792		12.00 secs, 906.30 msecs
+	Iter: 270 (4780), Loss: 0.0017530		12.00 secs, 807.03 msecs
+	Iter: 280 (4790), Loss: 0.0020814		12.00 secs, 994.51 msecs
+	Iter: 290 (4800), Loss: 0.0018595		12.00 secs, 877.67 msecs
+	Iter: 300 (4810), Loss: 0.0017024		12.00 secs, 885.66 msecs
+	Iter: 310 (4820), Loss: 0.0014375		12.00 secs, 922.07 msecs
+	Iter: 320 (4830), Loss: 0.0033654		12.00 secs, 750.21 msecs
+	Iter: 330 (4840), Loss: 0.0022941		12.00 secs, 680.53 msecs
+	Iter: 340 (4850), Loss: 0.0018746		13.00 secs, 117.07 msecs
+	Iter: 350 (4860), Loss: 0.0019418		12.00 secs, 685.73 msecs
+	Iter: 360 (4870), Loss: 0.0008582		12.00 secs, 735.45 msecs
+	Iter: 370 (4880), Loss: 0.0011176		13.00 secs, 71.65 msecs
+	Iter: 380 (4890), Loss: 0.0025775		12.00 secs, 951.67 msecs
+	Iter: 390 (4900), Loss: 0.0034871		12.00 secs, 938.12 msecs
+	Iter: 400 (4910), Loss: 0.0012355		13.00 secs, 3.38 msecs
+	Iter: 410 (4920), Loss: 0.0014689		12.00 secs, 616.55 msecs
+Epoch: 012, Loss: 0.0018342 (410 iters)		8.00 mins, 47.00 secs, 504.92 msecs
+	Iter: 001 (4921), Loss: 0.0012136		1.00 sec, 319.66 msecs
+	Iter: 010 (4930), Loss: 0.0015850		11.00 secs, 613.58 msecs
+	Iter: 020 (4940), Loss: 0.0011307		12.00 secs, 900.62 msecs
+	Iter: 030 (4950), Loss: 0.0010249		12.00 secs, 870.13 msecs
+	Iter: 040 (4960), Loss: 0.0012990		12.00 secs, 957.13 msecs
+	Iter: 050 (4970), Loss: 0.0020757		12.00 secs, 872.17 msecs
+	Iter: 060 (4980), Loss: 0.0022657		12.00 secs, 944.15 msecs
+	Iter: 070 (4990), Loss: 0.0017954		12.00 secs, 913.55 msecs
+	Iter: 080 (5000), Loss: 0.0019778		12.00 secs, 797.42 msecs
+Epoch: 013, Loss: 0.0018042 (80 iters)		1.00 min, 43.00 secs, 188.82 msecs
+	Iter: 001, Test Loss: 0.0017725		692.77 msecs
+	Iter: 002, Test Loss: 0.0025375		706.59 msecs
+	Iter: 003, Test Loss: 0.0034948		664.04 msecs
+	Iter: 004, Test Loss: 0.0025262		680.06 msecs
+	Iter: 005, Test Loss: 0.0032977		654.08 msecs
+	Iter: 006, Test Loss: 0.0020050		660.53 msecs
+	Iter: 007, Test Loss: 0.0011457		743.81 msecs
+	Iter: 008, Test Loss: 0.0003971		922.16 msecs
+	Iter: 009, Test Loss: 0.0017947		680.24 msecs
+	Iter: 010, Test Loss: 0.0010545		675.40 msecs
+	Iter: 011, Test Loss: 0.0049520		636.93 msecs
+	Iter: 012, Test Loss: 0.0014910		898.30 msecs
+	Iter: 013, Test Loss: 0.0025672		684.55 msecs
+	Iter: 014, Test Loss: 0.0010191		811.46 msecs
+	Iter: 015, Test Loss: 0.0025154		679.98 msecs
+	Iter: 016, Test Loss: 0.0020169		663.78 msecs
+	Iter: 017, Test Loss: 0.0018014		663.63 msecs
+	Iter: 018, Test Loss: 0.0000879		826.79 msecs
+	Iter: 019, Test Loss: 0.0005918		685.90 msecs
+	Iter: 020, Test Loss: 0.0042570		648.40 msecs
+	Iter: 021, Test Loss: 0.0023922		669.20 msecs
+	Iter: 022, Test Loss: 0.0057398		675.99 msecs
+	Iter: 023, Test Loss: 0.0022553		681.10 msecs
+	Iter: 024, Test Loss: 0.0003448		682.29 msecs
+	Iter: 025, Test Loss: 0.0014765		714.71 msecs
+	Iter: 026, Test Loss: 0.0000609		935.50 msecs
+	Iter: 027, Test Loss: 0.0027841		719.64 msecs
+	Iter: 028, Test Loss: 0.0002246		752.45 msecs
+	Iter: 029, Test Loss: 0.0034146		718.72 msecs
+	Iter: 030, Test Loss: 0.0001325		821.06 msecs
+	Iter: 031, Test Loss: 0.0006503		835.63 msecs
+	Iter: 032, Test Loss: 0.0011577		783.88 msecs
+	Iter: 033, Test Loss: 0.0022064		682.86 msecs
+	Iter: 034, Test Loss: 0.0021759		678.16 msecs
+	Iter: 035, Test Loss: 0.0001152		710.60 msecs
+	Iter: 036, Test Loss: 0.0000965		712.12 msecs
+	Iter: 037, Test Loss: 0.0000838		783.30 msecs
+	Iter: 038, Test Loss: 0.0000507		971.84 msecs
+	Iter: 039, Test Loss: 0.0023749		758.68 msecs
+	Iter: 040, Test Loss: 0.0009154		695.26 msecs
+	Iter: 041, Test Loss: 0.0049667		660.53 msecs
+	Iter: 042, Test Loss: 0.0002530		777.55 msecs
+	Iter: 043, Test Loss: 0.0012893		703.80 msecs
+	Iter: 044, Test Loss: 0.0013054		682.63 msecs
+	Iter: 045, Test Loss: 0.0021733		662.57 msecs
+	Iter: 046, Test Loss: 0.0015015		119.11 msecs
+	Iter: 001, Test Loss: 0.0033702		658.89 msecs
+	Iter: 002, Test Loss: 0.0016425		691.45 msecs
+	Iter: 003, Test Loss: 0.0019067		665.92 msecs
+	Iter: 004, Test Loss: 0.0015444		672.29 msecs
+	Iter: 005, Test Loss: 0.0047924		651.14 msecs
+	Iter: 006, Test Loss: 0.0023628		642.93 msecs
+	Iter: 007, Test Loss: 0.0011100		737.87 msecs
+	Iter: 008, Test Loss: 0.0003595		903.88 msecs
+	Iter: 009, Test Loss: 0.0015828		732.21 msecs
+	Iter: 010, Test Loss: 0.0009454		671.81 msecs
+	Iter: 011, Test Loss: 0.0026920		627.10 msecs
+	Iter: 012, Test Loss: 0.0015505		883.86 msecs
+	Iter: 013, Test Loss: 0.0022173		680.37 msecs
+	Iter: 014, Test Loss: 0.0003985		815.57 msecs
+	Iter: 015, Test Loss: 0.0024999		673.19 msecs
+	Iter: 016, Test Loss: 0.0013376		658.87 msecs
+	Iter: 017, Test Loss: 0.0011278		658.37 msecs
+	Iter: 018, Test Loss: 0.0000996		815.05 msecs
+	Iter: 019, Test Loss: 0.0007037		684.05 msecs
+	Iter: 020, Test Loss: 0.0040712		642.22 msecs
+	Iter: 021, Test Loss: 0.0019438		663.11 msecs
+	Iter: 022, Test Loss: 0.0024209		666.81 msecs
+	Iter: 023, Test Loss: 0.0027089		672.51 msecs
+	Iter: 024, Test Loss: 0.0004192		686.99 msecs
+	Iter: 025, Test Loss: 0.0010596		707.86 msecs
+	Iter: 026, Test Loss: 0.0001178		927.11 msecs
+	Iter: 027, Test Loss: 0.0012448		706.23 msecs
+	Iter: 028, Test Loss: 0.0004769		739.11 msecs
+	Iter: 029, Test Loss: 0.0027560		687.41 msecs
+	Iter: 030, Test Loss: 0.0008861		811.61 msecs
+	Iter: 031, Test Loss: 0.0005613		771.27 msecs
+	Iter: 032, Test Loss: 0.0014683		792.58 msecs
+	Iter: 033, Test Loss: 0.0011677		681.00 msecs
+	Iter: 034, Test Loss: 0.0015105		677.29 msecs
+	Iter: 035, Test Loss: 0.0001646		708.62 msecs
+	Iter: 036, Test Loss: 0.0000450		718.07 msecs
+	Iter: 037, Test Loss: 0.0000186		791.01 msecs
+	Iter: 038, Test Loss: 0.0000066		970.53 msecs
+	Iter: 039, Test Loss: 0.0030358		768.53 msecs
+	Iter: 040, Test Loss: 0.0012892		707.72 msecs
+	Iter: 041, Test Loss: 0.0027868		664.54 msecs
+	Iter: 042, Test Loss: 0.0001546		785.78 msecs
+	Iter: 043, Test Loss: 0.0016437		704.48 msecs
+	Iter: 044, Test Loss: 0.0008864		677.01 msecs
+	Iter: 045, Test Loss: 0.0018802		657.40 msecs
+	Iter: 046, Test Loss: 0.0004794		124.60 msecs

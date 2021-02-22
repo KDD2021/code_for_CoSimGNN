@@ -1,0 +1,277 @@
+align_metric               : mcs
+batch_size                 : 128
+dataset                    : aids700nef
+dataset_dzh                : dataset1_BA_60
+dataset_version            : None
+debug                      : False
+device                     : cpu
+dos_pred                   : sim
+dos_true                   : dist
+draw_sub_graph             : False
+ds_kernel                  : exp
+ds_norm                    : True
+edge_feats                 : None
+filter_large_size          : None
+hard_mask                  : True
+hostname                   : 54505bb9a8dd
+layer_1                    : NodeEmbedding:type=gin,output_dim=64,act=relu,bn=True
+layer_2                    : NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True
+layer_3                    : NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True
+layer_4                    : Memory_Based_Pooling:heads=5,input_dim=64,output_num=10,output_dim=64,CosimGNN=True
+layer_5                    : NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True
+layer_6                    : NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True
+layer_7                    : NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True
+layer_8                    : GraphConvolutionCollector:gcn_num=3,fix_size=10,mode=0,padding_value=0,align_corners=False
+layer_9                    : CNN:in_channels=1,out_channels=16,kernel_size=6,stride=1,gcn_num=3,bias=True,poolsize=2,act=relu,end_cnn=False
+layer_10                   : CNN:in_channels=16,out_channels=32,kernel_size=6,stride=1,gcn_num=3,bias=True,poolsize=2,act=relu,end_cnn=False
+layer_11                   : CNN:in_channels=32,out_channels=64,kernel_size=5,stride=1,gcn_num=3,bias=True,poolsize=2,act=relu,end_cnn=False
+layer_12                   : CNN:in_channels=64,out_channels=128,kernel_size=5,stride=1,gcn_num=3,bias=True,poolsize=3,act=relu,end_cnn=False
+layer_13                   : CNN:in_channels=128,out_channels=128,kernel_size=5,stride=1,gcn_num=3,bias=True,poolsize=3,act=relu,end_cnn=True
+layer_num                  : 13
+load_model                 : None
+lr                         : 0.001
+model                      : CoSimGNN-cnn
+model_name                 : fancy
+n_outputs                  : 10
+no_probability             : False
+node_fe_1                  : one_hot
+node_feats                 : type
+node_ordering              : bfs
+num_epochs                 : None
+num_iters                  : 2000
+num_node_feat              : 30
+num_partitions             : 3
+num_select                 : 3
+only_iters_for_debug       : None
+positional_encoding        : False
+print_every_iters          : 10
+save_every_epochs          : 1
+save_model                 : True
+save_sub_graph             : False
+select_node_pair           : None
+sub_graph_path             : ../../sub_graph/
+theta                      : 0.5
+throw_away                 : 0
+traditional_method         : True
+train_test_ratio           : 0.8
+tvt_options                : all
+tvt_strategy               : holdout
+user                       : root
+validation                 : False
+ts                         : 2020-05-05T04-15-43.996936
+
+python /graph/graphup/GraphMatching_submission/model/OurGED/main.py --align_metric=mcs  --batch_size=128  --dataset=aids700nef  --dataset_dzh=dataset1_BA_60  --dataset_version=None  --debug=False  --device=cpu  --dos_pred=sim  --dos_true=dist  --draw_sub_graph=False  --ds_kernel=exp  --ds_norm=True  --edge_feats=None  --filter_large_size=None  --hard_mask=True  --hostname=54505bb9a8dd  --layer_1=NodeEmbedding:type=gin,output_dim=64,act=relu,bn=True  --layer_2=NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True  --layer_3=NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True  --layer_4=Memory_Based_Pooling:heads=5,input_dim=64,output_num=10,output_dim=64,CosimGNN=True  --layer_5=NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True  --layer_6=NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True  --layer_7=NodeEmbedding:type=gin,input_dim=64,output_dim=64,act=relu,bn=True  --layer_8=GraphConvolutionCollector:gcn_num=3,fix_size=10,mode=0,padding_value=0,align_corners=False  --layer_9=CNN:in_channels=1,out_channels=16,kernel_size=6,stride=1,gcn_num=3,bias=True,poolsize=2,act=relu,end_cnn=False  --layer_10=CNN:in_channels=16,out_channels=32,kernel_size=6,stride=1,gcn_num=3,bias=True,poolsize=2,act=relu,end_cnn=False  --layer_11=CNN:in_channels=32,out_channels=64,kernel_size=5,stride=1,gcn_num=3,bias=True,poolsize=2,act=relu,end_cnn=False  --layer_12=CNN:in_channels=64,out_channels=128,kernel_size=5,stride=1,gcn_num=3,bias=True,poolsize=3,act=relu,end_cnn=False  --layer_13=CNN:in_channels=128,out_channels=128,kernel_size=5,stride=1,gcn_num=3,bias=True,poolsize=3,act=relu,end_cnn=True  --layer_num=13  --load_model=None  --lr=0.001  --model=CoSimGNN-cnn  --model_name=fancy  --n_outputs=10  --no_probability=False  --node_fe_1=one_hot  --node_feats=type  --node_ordering=bfs  --num_epochs=None  --num_iters=2000  --num_node_feat=30  --num_partitions=3  --num_select=3  --only_iters_for_debug=None  --positional_encoding=False  --print_every_iters=10  --save_every_epochs=1  --save_model=True  --save_sub_graph=False  --select_node_pair=None  --sub_graph_path=../../sub_graph/  --theta=0.5  --throw_away=0  --traditional_method=True  --train_test_ratio=0.8  --tvt_options=all  --tvt_strategy=holdout  --user=root  --validation=False
+
+Model(
+  (layers): ModuleList(
+    (0): NodeEmbedding(
+      (conv): GINConv(nn=Sequential(
+        (0): Linear(in_features=30, out_features=64, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=64, out_features=64, bias=True)
+      ))
+      (act): ReLU()
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (1): NodeEmbedding(
+      (conv): GINConv(nn=Sequential(
+        (0): Linear(in_features=64, out_features=64, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=64, out_features=64, bias=True)
+      ))
+      (act): ReLU()
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (2): NodeEmbedding(
+      (conv): GINConv(nn=Sequential(
+        (0): Linear(in_features=64, out_features=64, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=64, out_features=64, bias=True)
+      ))
+      (act): ReLU()
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (3): Memory_Pooling_Layer(
+      (dropout_1): Dropout(p=0.5)
+      (input2centroids_2): Sequential(
+        (0): Linear(in_features=6, out_features=25, bias=True)
+        (1): ReLU()
+      )
+      (input2centroids_3): Sequential(
+        (0): Linear(in_features=25, out_features=25, bias=True)
+        (1): ReLU()
+      )
+      (input2centroids_4): Sequential(
+        (0): Linear(in_features=25, out_features=25, bias=True)
+        (1): ReLU()
+      )
+      (input2centroids_5): Sequential(
+        (0): Linear(in_features=25, out_features=50, bias=True)
+        (1): ReLU()
+      )
+      (input2centroids_6): Sequential(
+        (0): Linear(in_features=25, out_features=50, bias=True)
+        (1): ReLU()
+      )
+      (memory_aggregation): Conv2d(5, 1, kernel_size=[1, 1], stride=(1, 1))
+      (bn_1): BatchNorm2d(1, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (dim_feat_transformation): Linear(in_features=64, out_features=64, bias=True)
+      (lrelu): LeakyReLU(negative_slope=0.01)
+      (similarity_compute): CosineSimilarity()
+      (similarity_compute_1): CosineSimilarity()
+    )
+    (4): NodeEmbedding(
+      (conv): GINConv(nn=Sequential(
+        (0): Linear(in_features=64, out_features=64, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=64, out_features=64, bias=True)
+      ))
+      (act): ReLU()
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (5): NodeEmbedding(
+      (conv): GINConv(nn=Sequential(
+        (0): Linear(in_features=64, out_features=64, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=64, out_features=64, bias=True)
+      ))
+      (act): ReLU()
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (6): NodeEmbedding(
+      (conv): GINConv(nn=Sequential(
+        (0): Linear(in_features=64, out_features=64, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=64, out_features=64, bias=True)
+      ))
+      (act): ReLU()
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (7): GraphConvolutionCollector(
+      (MNEResize): MNEResize()
+    )
+    (8): CNN(
+      (convs): ModuleList(
+        (0): Conv2d(1, 16, kernel_size=(6, 6), stride=(1, 1))
+        (1): Conv2d(1, 16, kernel_size=(6, 6), stride=(1, 1))
+        (2): Conv2d(1, 16, kernel_size=(6, 6), stride=(1, 1))
+      )
+      (maxpools): ModuleList(
+        (0): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+        (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+        (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+      )
+      (activation): ReLU()
+    )
+    (9): CNN(
+      (convs): ModuleList(
+        (0): Conv2d(16, 32, kernel_size=(6, 6), stride=(1, 1))
+        (1): Conv2d(16, 32, kernel_size=(6, 6), stride=(1, 1))
+        (2): Conv2d(16, 32, kernel_size=(6, 6), stride=(1, 1))
+      )
+      (maxpools): ModuleList(
+        (0): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+        (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+        (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+      )
+      (activation): ReLU()
+    )
+    (10): CNN(
+      (convs): ModuleList(
+        (0): Conv2d(32, 64, kernel_size=(5, 5), stride=(1, 1))
+        (1): Conv2d(32, 64, kernel_size=(5, 5), stride=(1, 1))
+        (2): Conv2d(32, 64, kernel_size=(5, 5), stride=(1, 1))
+      )
+      (maxpools): ModuleList(
+        (0): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+        (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+        (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+      )
+      (activation): ReLU()
+    )
+    (11): CNN(
+      (convs): ModuleList(
+        (0): Conv2d(64, 128, kernel_size=(5, 5), stride=(1, 1))
+        (1): Conv2d(64, 128, kernel_size=(5, 5), stride=(1, 1))
+        (2): Conv2d(64, 128, kernel_size=(5, 5), stride=(1, 1))
+      )
+      (maxpools): ModuleList(
+        (0): MaxPool2d(kernel_size=3, stride=3, padding=0, dilation=1, ceil_mode=False)
+        (1): MaxPool2d(kernel_size=3, stride=3, padding=0, dilation=1, ceil_mode=False)
+        (2): MaxPool2d(kernel_size=3, stride=3, padding=0, dilation=1, ceil_mode=False)
+      )
+      (activation): ReLU()
+    )
+    (12): CNN(
+      (convs): ModuleList(
+        (0): Conv2d(128, 128, kernel_size=(5, 5), stride=(1, 1))
+        (1): Conv2d(128, 128, kernel_size=(5, 5), stride=(1, 1))
+        (2): Conv2d(128, 128, kernel_size=(5, 5), stride=(1, 1))
+      )
+      (maxpools): ModuleList(
+        (0): MaxPool2d(kernel_size=3, stride=3, padding=0, dilation=1, ceil_mode=False)
+        (1): MaxPool2d(kernel_size=3, stride=3, padding=0, dilation=1, ceil_mode=False)
+        (2): MaxPool2d(kernel_size=3, stride=3, padding=0, dilation=1, ceil_mode=False)
+      )
+      (activation): ReLU()
+      (proj_layers): ModuleList(
+        (0): Linear(in_features=384, out_features=192, bias=False)
+        (1): ReLU()
+        (2): Linear(in_features=192, out_features=96, bias=False)
+        (3): ReLU()
+        (4): Linear(in_features=96, out_features=48, bias=False)
+        (5): ReLU()
+        (6): Linear(in_features=48, out_features=24, bias=False)
+        (7): ReLU()
+        (8): Linear(in_features=24, out_features=12, bias=False)
+        (9): ReLU()
+        (10): Linear(in_features=12, out_features=6, bias=False)
+        (11): ReLU()
+        (12): Linear(in_features=6, out_features=3, bias=False)
+        (13): ReLU()
+        (14): Linear(in_features=3, out_features=1, bias=False)
+      )
+      (criterion): MSELoss()
+    )
+  )
+  (criterion): MSELoss()
+  (GNN_1): NodeEmbedding(
+    (conv): GINConv(nn=Sequential(
+      (0): Linear(in_features=30, out_features=64, bias=True)
+      (1): PReLU(num_parameters=64)
+      (2): Linear(in_features=64, out_features=64, bias=True)
+    ))
+    (act): PReLU(num_parameters=64)
+    (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (GNN_2): NodeEmbedding(
+    (conv): GINConv(nn=Sequential(
+      (0): Linear(in_features=64, out_features=32, bias=True)
+      (1): PReLU(num_parameters=32)
+      (2): Linear(in_features=32, out_features=32, bias=True)
+    ))
+    (act): PReLU(num_parameters=32)
+    (bn): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (GNN_3): NodeEmbedding(
+    (conv): GINConv(nn=Sequential(
+      (0): Linear(in_features=32, out_features=16, bias=True)
+      (1): PReLU(num_parameters=16)
+      (2): Linear(in_features=16, out_features=16, bias=True)
+    ))
+    (act): PReLU(num_parameters=16)
+    (bn): BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (ntn_layer): NTN(
+    (inneract): ReLU()
+  )
+  (graph_mlp_layers): ModuleList(
+    (0): Linear(in_features=16, out_features=8, bias=False)
+    (1): Sigmoid()
+    (2): Linear(in_features=8, out_features=4, bias=False)
+    (3): Sigmoid()
+    (4): Linear(in_features=4, out_features=2, bias=False)
+    (5): Sigmoid()
+    (6): Linear(in_features=2, out_features=1, bias=False)
+  )
+)
