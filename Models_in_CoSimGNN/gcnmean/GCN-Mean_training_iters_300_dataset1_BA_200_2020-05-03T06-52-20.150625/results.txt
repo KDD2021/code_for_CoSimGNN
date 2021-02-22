@@ -1,0 +1,8 @@
+pairwise
+OrderedDict([('regular',
+              OrderedDict([('avg',
+                            OrderedDict([('mse', 0.023905313778888947),
+                                         ('dev', 0.12785740367546533)])),
+                           ('best',
+                            OrderedDict([('mse', 0.023905313778888947),
+                                         ('dev', 0.12785740367546533)]))]))])
