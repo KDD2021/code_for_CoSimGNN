@@ -37,7 +37,7 @@ python main.py --dataset <dataset> --num_iters <number_of_training_iterations> -
 
 Download pretrained models here:
 
-- [Pre-trained_models](https://drive.google.com/drive/folders/1YHqV2F22ZbbGQshf9JHHvBAjLqZi3Tyx?usp=sharing)
+- [Pre-trained_models](https://github.com/KDD2021/code_for_CoSimGNN/tree/main/Models_in_CoSimGNN)
 
 ## Results
 
